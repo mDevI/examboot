@@ -6,7 +6,6 @@ import com.mdevi.examboot.model.Question;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
 import java.util.Collections;
 import java.util.List;
@@ -14,7 +13,7 @@ import java.util.Locale;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-@Repository
+
 public class TestQuestionsLoaderImpl implements TestQuestionsLoader {
 
     private final Logger LOGGER = LoggerFactory.getLogger(TestQuestionsLoaderImpl.class);
