@@ -8,8 +8,6 @@
  ########: ##:::. ##: ##:::: ##: ##:::: ##::::. ######::::: ##::::. ######::::: ##:::: ########: ##:::: ##:
 ........::..:::::..::..:::::..::..:::::..::::::......::::::..::::::......::::::..:::::........::..:::::..::
 
-Application Name : ${application.title}
-Application Version : ${application.version}
-Application Formatted Version : ${application.formatted-version}
-Spring Boot Version : ${spring-boot-version}
+Application Name : ${spring.application.name}
+Application Version : ${spring.application.version}
 Spring Boot Formatted Version : ${spring-boot.formatted-version}
