@@ -12,6 +12,5 @@ public class ExamBootApplication {
         ApplicationContext context = SpringApplication.run(ExamBootApplication.class, args);
         TestProcessor testProcessor = context.getBean(TestProcessor.class);
         testProcessor.doTest();
-
 	}
 }

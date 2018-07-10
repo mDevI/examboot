@@ -1,0 +1,10 @@
+spring:
+      application:
+                  name: My Test System
+                  version: 1.0
+app:
+    questions:
+              csv:
+                  file: questions.csv
+    locale:
+            string: en-US
