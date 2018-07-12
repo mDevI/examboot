@@ -6,7 +6,7 @@
         </encoder>
     </appender>
     <logger name="org.springframework" level="error"/>
-    <logger name="com.mdevi.examboot.service" level="info"/>
+    <logger name="com.mdevi.examboot.service" level="error"/>
     <root level="debug">
         <appender-ref ref="console"/>
     </root>
